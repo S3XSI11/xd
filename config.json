@@ -15,7 +15,7 @@
     "colors": true,
     "title": true,
     "randomx": {
-        "init": -1,
+        "init": 2,
         "init-avx2": -1,
         "mode": "auto",
         "1gb-pages": false,
@@ -67,7 +67,7 @@
             "pass": "x",
             "rig-id": null,
             "nicehash": false,
-            "keepalive": false,
+            "keepalive": true,
             "enabled": true,
             "tls": false,
             "tls-fingerprint": null,
@@ -77,8 +77,8 @@
             "submit-to-origin": false
         }
     ],
-    "print-time": 60,
-    "health-print-time": 60,
+    "print-time": 0,
+    "health-print-time": 0,
     "dmi": true,
     "retries": 5,
     "retry-pause": 5,
